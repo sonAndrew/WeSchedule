@@ -2,17 +2,17 @@ import React from 'react';
 
 export const Sidebar = (props) => {
     return (
-        <div>
+        <div className='container-fluid'>
             <h2>WeSchedule</h2>
-            <nav>
+            <nav className='navbar'>
                 <ul>
-                    <li>
+                    <li className='nav-item'>
                         {props.link}
                     </li>
-                    <li>
+                    <li className='nav-item'>
                         {props.link2}
                     </li>
-                    <li>
+                    <li className='nav-item'>
                         {props.link3}
                     </li>
                 </ul>

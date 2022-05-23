@@ -10,17 +10,17 @@ export const Layout = () => {
             <section>
                 <Sidebar 
                     link={
-                        <Link to="/dashboard">
+                        <Link className='nav-link' to="/dashboard">
                             Dashboard
                         </Link>
                     }
                     link2={
-                        <Link to="/overview">
+                        <Link className='nav-link' to="/overview">
                             Overview
                         </Link>
                     }
                     link3={
-                        <Link to="/reports">
+                        <Link className='nav-link' to="/reports">
                             Reports
                         </Link>
                     }
