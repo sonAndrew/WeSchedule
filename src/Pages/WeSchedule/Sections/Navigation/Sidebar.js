@@ -2,10 +2,9 @@ import React from 'react';
 
 export const Sidebar = (props) => {
     return (
-        <div className='container-fluid'>
-            <h2>WeSchedule</h2>
-            <nav className='navbar'>
-                <ul>
+        <nav className='navbar navbar-dark bg-primary'>
+            <h2 className='navbar-brand'>WeSchedule</h2>
+            <ul>
                     <li className='nav-item'>
                         {props.link}
                     </li>
@@ -16,7 +15,6 @@ export const Sidebar = (props) => {
                         {props.link3}
                     </li>
                 </ul>
-            </nav>
-        </div>
+        </nav>
     )
 }
