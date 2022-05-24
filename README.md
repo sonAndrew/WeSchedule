@@ -3,22 +3,19 @@
 ### To-do's
 The to-do items are listed from most to least importance.
 
-- Navigation File
-    + Sidebar Component
-- Charts File
-    + Chart Component
-- Departments File
-    + Department Component
-- Locations File
-    + Location Component
-- Schedules File
-    + Schedule Component
-    + ScheduleTable  Component
-- Reports File
-    + Reports Component
-    + ReportForm Component
-    + ReportsTable Component
-- Dashboard File
-    + Dashboard Component
-- Overview File
-    + Overview Component
+| File to work on  | Component to work on      | Member working on it | Status      |
+| ---------------- | ------------------------- | -------------------- | ----------- |
+| Navigation File  | Sidebar Component         | Andrew  Jackson      | In-Progress |
+| Charts File      | Chart Component           | William Brown        | Complete    |
+| Departments File | Department Component      | Joshua Nuttell       | In-Progress |
+| Locations File   | Location Component        | Whitney Ward         | In-Progress |
+| Schedules File   | Schedule Component        | Tchardley Romulus    | In-Progress |
+| Schedules File   | ScheduleTable Component   | Tchardley Romulus    | In-Progress |
+
+| ---------------- | ------------------------- | -------------------- | ----------- |
+
+| Reports File     | Reports Component         | Not-Assigned         | Not-Started |
+| Reports File     | ReportForm Component      | Not-Assigned         | Not-Started |
+| Reports File     | ReportsTable Component    | Not-Assigned         | Not-Started |
+| Dashboard File   | Dashboard Component       | Not-Assigned         | In-Progress |
+| Overview File    | Overview Component        | Not-Assigned         | In-Progress |
