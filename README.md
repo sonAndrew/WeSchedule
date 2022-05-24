@@ -11,7 +11,6 @@ The to-do items are listed from most to least importance.
 | Locations File       | Location Component            | Whitney Ward             | In-Progress     |
 | Schedules File       | Schedule Component            | Tchardley Romulus        | In-Progress     |
 | Schedules File       | ScheduleTable Component       | Tchardley Romulus        | In-Progress     |
-| -------------------- | ----------------------------- | ------------------------ | --------------- |
 | Reports File         | Reports Component             | Not-Assigned             | Not-Started     |
 | Reports File         | ReportForm Component          | Not-Assigned             | Not-Started     |
 | Reports File         | ReportsTable Component        | Not-Assigned             | Not-Started     |
