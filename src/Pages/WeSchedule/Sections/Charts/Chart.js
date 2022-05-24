@@ -10,6 +10,7 @@ export default class LineChart extends Component {
 	componentDidMount() {
 		const ctx = this.chartRef.current.getContext("2d");
 		
+		// This is a chart with some dummy data attached
 		new Chart(ctx, {
 			type: "line",
 			data: {
@@ -43,6 +44,7 @@ export default class LineChart extends Component {
 			},
 		});
 	}
+	// Returns HTML to render the chart
 	render() {
 		return (
 			<div>
