@@ -8,11 +8,10 @@ export const Layout = () => {
     return (
         <div className="cotainer">
             <section className="row">
-                <section className="col-sm-1"></section>
-                <section className="col-sm-1">
+                <section className="col-sm-2">
                     <Sidebar 
                         link={
-                            <Link className='nav-link' to="/overview">
+                            <Link className='nav-link active' to="/overview">
                                 Overview
                             </Link>
                         }
@@ -28,6 +27,7 @@ export const Layout = () => {
                         }
                     />
                 </section>
+                <section className="col-sm-1"></section>
                 <section className="col-lg-4">
                     <Outlet />
                 </section>
