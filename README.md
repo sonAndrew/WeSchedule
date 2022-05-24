@@ -7,7 +7,7 @@ The to-do items are listed from most to least importance.
 | -------------------- | ----------------------------- | ------------------------ | --------------- |
 | Navigation File      | Sidebar Component             | Andrew  Jackson          | In-Progress     |
 | Charts File          | Chart Component               | William Brown            | Complete        |
-| Departments File     | Department Component          | Joshua Nuttell           | In-Progress     |
+| Departments File     | Department Component          | Josh Nuttall             | In-Progress     |
 | Locations File       | Location Component            | Whitney Ward             | In-Progress     |
 | Schedules File       | Schedule Component            | Tchardley Romulus        | In-Progress     |
 | Schedules File       | ScheduleTable Component       | Tchardley Romulus        | In-Progress     |
