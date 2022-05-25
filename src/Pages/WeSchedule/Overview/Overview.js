@@ -1,7 +1,7 @@
 import React from 'react';
 import LineChart from "../Sections/Charts/Chart";
 import { Departments } from "../Sections/Departments.js/Department";
-
+import { Location } from '../Sections/Locations/Location'; 
 // Todo
 // import chart component
 // import schedule component
@@ -14,6 +14,7 @@ export const Overview = () => {
         <div>Overview
             <LineChart/>
             <Departments />
+            <Location />
         </div>
     )
 }
