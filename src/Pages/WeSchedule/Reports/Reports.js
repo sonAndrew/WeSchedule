@@ -1,5 +1,6 @@
 import React from 'react';
 import { ReportForm } from './ReportForm';
+import { ReportsTable } from './ReportsTable';
 
 // Todo
 // this page allows users to see and create reports
@@ -9,6 +10,10 @@ import { ReportForm } from './ReportForm';
 
 export const Reports = () => {
     return (
-        <ReportForm />
+        <div>
+            <ReportForm />
+            <br/>
+            <ReportsTable />
+        </div>
     )
 }
