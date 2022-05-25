@@ -18,22 +18,116 @@ export const Departments = () => {
 
   
     return (
-      <form>
-        <label>
-          Select your Department:
-          <select>
-            <option value="Department 1">Department 1</option>
-            <option value="Department 2">Department 2</option>
-            <option value="Department 3">Department 3</option>
-            <option value="Department 4">Department 4</option>
-            <option value="Department 5">Department 5</option>
-            <option value="Department 6">Department 6</option>
-            <option value="Department 7">Department 7</option>
-            <option value="Department 8">Department 8</option>        
-          </select>
-        </label>
-        <input type="submit" value="Submit" />
-      </form>
+        <div className="table-responsive-xl row">
+            <section className="col">
+                <h2>Departments and Leads:</h2>
+            <br></br>
+            <table class="table, table table-hover, table table-bordered">
+              <tbody>
+                <tr>
+                  <th scope="col">Dept #</th>
+                  <th scope="col">Dept Name</th>
+                  <th scope="col">Dept Lead</th>
+                  <th scope="col"># of Associates</th>
+                </tr>
+                <tr>
+                  <th scope="row">19</th>
+                  <td>Cashiers</td>
+                  <td>Flow Easy</td>
+                  <td>10</td>
+                </tr>
+                <tr>
+                  <th scope="row">22</th>
+                  <td>Sales Floor</td>
+                  <td>Eileen Dover</td>
+                  <td>15</td>
+                </tr>
+                <tr>
+                  <th scope="row">24</th>
+                  <td>Household</td>
+                  <td>Justin Case</td>
+                  <td>10</td>
+                </tr>
+                <tr>
+                  <th scope="row">25</th>
+                  <td>Furniture</td>
+                  <td>John Sidder</td>
+                  <td>12</td>
+                </tr>
+                <tr>
+                  <th scope="row">29</th>
+                  <td>Receiving/Dock</td>
+                  <td>Gitter Dunn</td>
+                  <td>14</td>
+                </tr>
+                <tr>
+                  <th scope="row">33</th>
+                  <td>Custodial</td>
+                  <td>Dawn D'Tergent</td>
+                  <td>10</td>
+                </tr>
+              </tbody>
+            </table>
+            </section>
+
+            <br></br>
+            <br />
+
+            <section className="col">
+            <h2>Associates by Department:</h2>
+                <br></br>
+            <table class="table, table table-hover, table table-bordered">
+              <thead>
+                <tr>
+                  <th scope="col">Dept #</th>
+                  <th scope="col">First</th>
+                  <th scope="col">Last</th>
+                  <th scope="col">Role</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">19</th>
+                  <td>Dwayne</td>
+                  <td>Johnson</td>
+                  <td>Lead Associate</td>
+                </tr>
+                <tr>
+                  <th scope="row">19</th>
+                  <td>Ed</td>
+                  <td>Norton</td>
+                  <td>Associate</td>
+                </tr>
+                <tr>
+                  <th scope="row">22</th>
+                  <td>Larry</td>
+                  <td>Bird</td>
+                  <td>Associate</td>
+                </tr>
+                <tr>
+                  <th scope="row">24</th>
+                  <td>Charlize</td>
+                  <td>Theron</td>
+                  <td>Lead Associate</td>
+                </tr>
+                <tr>
+                  <th scope="row">24</th>
+                  <td>Sandra</td>
+                  <td>Bullock</td>
+                  <td>Associate</td>
+                </tr>
+                <tr>
+                  <th scope="row">29</th>
+                  <td>Kate</td>
+                  <td>Beckinsale</td>
+                  <td>Associate</td>
+                </tr>
+              </tbody>
+            </table>
+            </section>
+
+
+      </div>
     );
 
 }
