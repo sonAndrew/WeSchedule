@@ -1,5 +1,5 @@
 import React from 'react';
-import { ReportForm } from './ReportForm';
+// import { ReportForm } from './ReportForm';
 import { ReportsTable } from './ReportsTable';
 
 // Todo
@@ -11,8 +11,10 @@ import { ReportsTable } from './ReportsTable';
 export const Reports = () => {
     return (
         <div>
-            <ReportForm />
-            <br/>
+            <br />
+            <h2>WeReports</h2>
+            <hr />
+            <br />
             <ReportsTable />
         </div>
     )

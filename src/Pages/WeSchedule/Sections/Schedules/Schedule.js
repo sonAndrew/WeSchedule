@@ -1,14 +1,26 @@
 import React from 'react';
 
-
 // Todo
 // Import the schedule table 
 import { ScheduleTable } from './ScheduleTable';
-export const Schedule = () => {
+import { TableRow } from './TableRow';
+
+export const Schedule = (props) => {
     return (
         <div>
-           <ScheduleTable /> 
-
+            <ScheduleTable>
+                <TableRow />
+                <TableRow />
+                <TableRow />
+                <TableRow />
+                <TableRow />
+                <TableRow />
+                <TableRow />
+                <TableRow />
+                <TableRow />
+                <TableRow />
+                <TableRow />
+            </ScheduleTable> 
         </div>
     )
 }

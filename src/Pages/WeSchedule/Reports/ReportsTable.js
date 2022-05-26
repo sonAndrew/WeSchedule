@@ -4,43 +4,128 @@
 // the table takes:
 // id, title, summary, introduction, body, department and user
 import React from 'react';
+import { Button } from './Button'
 
 export const ReportsTable = () => {
 
     return (
-        <table class="table">
-            <thead>
-                <tr>
-                    <th scope="col">id</th>
-                    <th scope="col">title</th>
-                    <th scope="col">summary</th>
-                    <th scope="col">introduction</th>
-                    <th scope="col">body</th>
-                    <th scope="col">department</th>
-                    <th scope="col">user</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <th scope="row">1</th>
-                    <td>Parking</td>
-                    <td>We need more parking spaces.</td>
-                    <td>We have 400 employees but only two parking spaces.</td>
-                    <td>Please add more parking spaces.</td>
-                    <td>R&D</td>
-                    <td>User 1</td>
-                </tr>
-                <tr>
-                    <th scope="row">2</th>
-                    <td>Ice cream</td>
-                    <td>We need an ice cream machine.</td>
-                    <td>McDonalds has an ice cream machine but we don't.</td>
-                    <td>Please consider stealing the ice cream machine from McDonalds.</td>
-                    <td>Market Research</td>
-                    <td>User 2</td>
-                </tr>
-            </tbody>
-        </table>
-    );
-
+        <div className='container'>
+            <div className='row'>
+                <section className='col-10'>
+                    <h2>Current Reports</h2>
+                </section>
+                <section className='col-2'>
+                    <Button />
+                </section>
+            </div>
+            <hr />
+            <br />
+            <table className="table table-striped table-hover">
+                <thead>
+                    <tr className='table-primary'>
+                        <th scope="col">Id</th>
+                        <th scope="col">Title</th>
+                        <th scope="col">Summary</th>
+                        <th scope="col">Introduction</th>
+                        <th scope="col">Body</th>
+                        <th scope="col">Department</th>
+                        <th scope="col">User</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Parking</td>
+                        <th>We need more parking spaces.</th>
+                        <td>We have 400 employees but only two parking spaces.</td>
+                        <th>Please add more parking spaces.</th>
+                        <td>R & D</td>
+                        <th>William B.</th>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Ice cream</td>
+                        <th>We need an ice cream machine.</th>
+                        <td>McDonalds has an ice cream machine but we don't.</td>
+                        <th>Please consider stealing the ice cream machine from McDonalds.</th>
+                        <td>Market Research</td>
+                        <th>William B.</th>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Ice cream</td>
+                        <th>We need an ice cream machine.</th>
+                        <td>McDonalds has an ice cream machine but we don't.</td>
+                        <th>Please consider stealing the ice cream machine from McDonalds.</th>
+                        <td>Market Research</td>
+                        <th>William B.</th>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Ice cream</td>
+                        <th>We need an ice cream machine.</th>
+                        <td>McDonalds has an ice cream machine but we don't.</td>
+                        <th>Please consider stealing the ice cream machine from McDonalds.</th>
+                        <td>Market Research</td>
+                        <th>William B.</th>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Ice cream</td>
+                        <th>We need an ice cream machine.</th>
+                        <td>McDonalds has an ice cream machine but we don't.</td>
+                        <th>Please consider stealing the ice cream machine from McDonalds.</th>
+                        <td>Market Research</td>
+                        <th>William B.</th>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Ice cream</td>
+                        <th>We need an ice cream machine.</th>
+                        <td>McDonalds has an ice cream machine but we don't.</td>
+                        <th>Please consider stealing the ice cream machine from McDonalds.</th>
+                        <td>Market Research</td>
+                        <th>William B.</th>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Ice cream</td>
+                        <th>We need an ice cream machine.</th>
+                        <td>McDonalds has an ice cream machine but we don't.</td>
+                        <th>Please consider stealing the ice cream machine from McDonalds.</th>
+                        <td>Market Research</td>
+                        <th>William B.</th>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Ice cream</td>
+                        <th>We need an ice cream machine.</th>
+                        <td>McDonalds has an ice cream machine but we don't.</td>
+                        <th>Please consider stealing the ice cream machine from McDonalds.</th>
+                        <td>Market Research</td>
+                        <th>William B.</th>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Ice cream</td>
+                        <th>We need an ice cream machine.</th>
+                        <td>McDonalds has an ice cream machine but we don't.</td>
+                        <th>Please consider stealing the ice cream machine from McDonalds.</th>
+                        <td>Market Research</td>
+                        <th>William B.</th>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Ice cream</td>
+                        <th>We need an ice cream machine.</th>
+                        <td>McDonalds has an ice cream machine but we don't.</td>
+                        <th>Please consider stealing the ice cream machine from McDonalds.</th>
+                        <td>Market Research</td>
+                        <th>William B.</th>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </div>
+    )
 }

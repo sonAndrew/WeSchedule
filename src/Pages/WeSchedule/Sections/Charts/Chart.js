@@ -47,10 +47,12 @@ export default class LineChart extends Component {
 	// Returns HTML to render the chart
 	render() {
 		return (
-			<div>
+			<div className='container'>
+				<h4>Employee Chart:</h4>
+				<hr />
 				<canvas
-				id="myChart"
-				ref={this.chartRef}
+					id="myChart"
+					ref={this.chartRef}
 				/>
 			</div>
 			)

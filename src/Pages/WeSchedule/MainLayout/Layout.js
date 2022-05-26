@@ -8,7 +8,7 @@ export const Layout = () => {
     return (
         <div className="cotainer">
             <section className="row">
-                <section className="col-sm-2">
+                <section className="col-2 mh-100">
                     <Sidebar 
                         title={
                             <Link className='navbar-brand link text-white' aria-current='page' to="/overview">
@@ -32,8 +32,8 @@ export const Layout = () => {
                         }
                     />
                 </section>
-                <section className="col-sm-1"></section>
-                <section className="col-lg-4">
+                {/* <section className="col-sm-1"></section> */}
+                <section className="col-10">
                     <Outlet />
                 </section>
             </section>

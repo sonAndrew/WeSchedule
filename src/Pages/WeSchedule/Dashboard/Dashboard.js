@@ -9,7 +9,10 @@ import { Schedule } from '../Sections/Schedules/Schedule';
 
 export const Dashboard = () => {
     return (
-        <div>Dashboard
+        <div>
+            <br />
+            <h2>Schedule Dashboard</h2>
+            <hr />
             <Schedule />
         </div>
 
