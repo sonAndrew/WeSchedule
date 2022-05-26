@@ -1,0 +1,18 @@
+nav {
+    height: 100%;
+    position: fixed;
+}
+nav > div > a.link {
+    font-size: 34px;
+    font-weight: bold;
+    margin: 4rem 0px 0px 0px;
+}
+nav > div > div > ul.nav-container {
+    font-size: 28px;
+    list-style-type: none;
+    margin: 3rem 0px 0px -1rem;
+    text-align: center;
+}
+nav > div > div > ul.nav-container > li {
+    margin: 2rem 0px 0px 0px;
+}

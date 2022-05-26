@@ -10,18 +10,23 @@ export const Layout = () => {
             <section className="row">
                 <section className="col-sm-2">
                     <Sidebar 
+                        title={
+                            <Link className='navbar-brand link text-white' aria-current='page' to="/overview">
+                                WeSchedule
+                            </Link>
+                        }
                         link={
-                            <Link className='nav-link active' to="/overview">
+                            <Link className='nav-link active text-white' aria-current='page' to="/overview">
                                 Overview
                             </Link>
                         }
                         link2={
-                            <Link className='nav-link' to="/dashboard">
+                            <Link className='nav-link text-white' to="/dashboard">
                                 Dashboard
                             </Link>
                         }
                         link3={
-                            <Link className='nav-link' to="/reports">
+                            <Link className='nav-link text-white' to="/reports">
                                 Reports
                             </Link>
                         }
