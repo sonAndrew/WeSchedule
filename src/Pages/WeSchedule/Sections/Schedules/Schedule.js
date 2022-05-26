@@ -7,7 +7,7 @@ import { TableRow } from './TableRow';
 
 export const Schedule = (props) => {
     return (
-        <div>
+        <div className='container'>
             <ScheduleTable>
                 <TableRow />
                 <TableRow />
